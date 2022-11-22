@@ -1,0 +1,169 @@
+a*{ text-decoration: none;
+   background-color:rgb(17, 17, 141) ;
+   padding: 5px;
+ }
+ a:hover{ 
+     font-size: 2em;
+     font-style: italic;
+     background-color: blueviolet;
+     font-weight: bold;
+     border: 1px dotted black;
+     transition: 3s;
+ }
+ a:active{ 
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+ }
+ h1{
+     font-family: fantasy;
+     text-transform: uppercase;
+     color:hotpink;
+  }
+
+ .tekst{
+    font-family: Verdana;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+    color: rgb(186, 42, 190);
+  }
+ .lista ul{  
+     list-style-type: none;
+     margin: 0px;
+ }
+ .lista ul li{ 
+    margin: 0px;
+    padding: 2px;
+    text-align :center;
+    color:royalblue;
+    font-style: initial;
+    font-weight: bold;
+ }
+ .lista2 ol li  { 
+        padding:2px ;
+        text-align: center;
+        font-style: oblique;
+        color: purple;
+        font-weight: bold;
+ }
+
+ .naslov{
+  font-style: italic;
+  color: greenyellow;
+  font-weight: bold;
+  padding: 2px;
+
+  }
+  .tabela h1 { 
+      font-weight: bold;
+      font-style: italic;
+      color: green;
+  }
+  .tabela th {
+    background-color: chartreuse;
+    color:darkblue;
+   }
+  .tabela td{
+      text-align: center;
+      font-weight: bold;
+      color: blue;
+      padding: 2px;
+      }
+   .tabela tr{ 
+
+       background-color: green;
+       
+   }
+   .tabela img  {
+    width: 400px;
+    height: 200px;
+    animation: animacija1 5s ease-in  infinite;
+
+    }
+    @keyframes animacija1 {
+        from {transform: rotate(0deg); }
+        to {transform: rotate(360deg); }
+    }
+      
+    h4 { 
+   font-size: 40px;
+   text-transform: uppercase;
+   font-style: italic;
+   color:palegreen;
+   text-align: center;
+   }
+   body {
+       font-style: italic;
+    }
+
+   @media screen  and (max-width:570px){ 
+       body { font-style:inherit;}
+       
+   }
+       .tabela img  {
+        width: 200px;
+        height: 200px;
+        animation: animacija1 5s ease-in  infinite;
+        }
+        @media screen  and(max-width:500px){
+            .tabela img  {display:none ;}
+            
+        }
+   
+
+  input[type="text"],input[type="password"] { 
+     display: inline-block;
+     width: 300px;
+     height: 40px;
+     margin-bottom: 20px;
+     border: 1px solid black;
+     border-radius: 20px;
+     letter-spacing: 1px;
+    padding: 0px 20px;
+    background-color:lawngreen;
+ }
+
+ input[type="radio"],input[type="checkbox"]{
+
+     height:30px;
+     width: 40px;
+     border: 1px solid black;
+     border-radius: 10px;
+     letter-spacing: 10px;
+     background-color: darkgray;
+  }
+  input[type="submit"],input[ type="reset"] { 
+   height: 40px;
+   width: 140px;
+   margin: 0px 20px;
+   letter-spacing: 2px;
+   border: 1px solid black;
+   background-color: chartreuse;
+   font-weight: bold;
+
+  }
+  input[type="text"]:hover,input[type="password"]:hover { 
+    box-shadow: 78px 35px 34px 4px rgba(62,41,191,0.75);
+    -webkit-box-shadow: 78px 35px 34px 4px rgba(62,41,191,0.75);
+    -moz-box-shadow: 78px 35px 34px 4px rgba(62,41,191,0.75); 
+  }
+  input[type="submit"]:hover,input[ type="reset"]:hover{ 
+      background-color: mediumblue;
+      color: yellowgreen;
+      transition: 3s;
+      border-radius: 10px;
+  }
+  .tekst{ 
+   width: 1500px;
+   margin: 50px 10px;
+   border: 4px solid black;
+   transform: skewX(10deg);
+   animation-name: animacija;
+   animation-duration: 6s;
+  }
+  @keyframes animacija {
+      from{background-color:pink; }
+      to {background-color: rebeccapurple; } 
+  }
+  
